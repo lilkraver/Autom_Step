@@ -17,3 +17,7 @@ class ProductPageLocators():
     total_price = (By.CLASS_NAME, '.alertinner p strong')
     
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages .alert-success:first-child")
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
