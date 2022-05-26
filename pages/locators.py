@@ -15,3 +15,5 @@ class ProductPageLocators():
     item_bname = (By.CSS_SELECTOR, '.alertinner>strong')
     item_price = (By.CSS_SELECTOR, 'p.price_color')
     total_price = (By.CLASS_NAME, '.alertinner p strong')
+    
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages .alert-success:first-child")
